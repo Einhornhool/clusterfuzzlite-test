@@ -3,4 +3,4 @@ duration: 90
 project: github-ci-test
 target: mayhemtest
 cmds:
-  - cmd: /mayhemtest @@
+  - cmd: /mayhemtest
