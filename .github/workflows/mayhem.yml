@@ -68,10 +68,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile.lighttpd
-          - mayhem/Mayhemfile.mayhemit
-          # Specify one or many Mayhemfiles here
-
+          - Mayhemfile
     steps:
       - uses: actions/checkout@v3
 
