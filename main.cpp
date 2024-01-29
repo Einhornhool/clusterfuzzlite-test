@@ -26,6 +26,5 @@ int main(int argc, char* argv[])
     }
     code.copy_buf_to_buf(argv[1], strlen(buf));
 
-    }
     return 0;
 }
